@@ -8,4 +8,7 @@ is the second derivative. Constants are just the special case (f,0,0).
 
 The algebra of the extended duals are defined so that first and second derivatives are carried around
 and calculated as you go. As a result, arbitarily complex univariate functions can be maximized or minimized with
-newtons method without needing to resort to symbolic differentiation or inaccurate numerical differentiation. 
+newtons method without needing to resort to symbolic differentiation or inaccurate numerical differentiation.
+
+The heavy lifting of this code is done in tree.h. Sample code is in start.txt. For now this will only run in linux.
+I have a newer version of the language with cleaner syntax and am currently working on documenting it. 
